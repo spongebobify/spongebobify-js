@@ -1,7 +1,10 @@
-(function () {
-'use strict';
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.spongebobify = factory());
+}(this, (function () { 'use strict';
 
-spongebobify = text => {
+function spongebobify(text) {
   let altered = "";
   let isLower = true;
   for (let i = 0; i < text.length; i++) {
@@ -9,9 +12,8 @@ spongebobify = text => {
     isLower = !isLower;
   }
   return altered;
-};
+}
 
+return spongebobify;
 
-module.exports = spongebobify;
-
-}());
+})));

@@ -1,4 +1,4 @@
-spongebobify = text => {
+export default function spongebobify(text) {
   let altered = "";
   let isLower = true;
   for (let i = 0; i < text.length; i++) {
@@ -6,7 +6,4 @@ spongebobify = text => {
     isLower = !isLower;
   }
   return altered;
-};
-
-
-module.exports = spongebobify;
+}

@@ -1,6 +1,3 @@
-
-
-
 spongebobify = text => {
   let altered = "";
   let isLower = true;

@@ -1,13 +1,1 @@
-(function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define(factory) :
-	(global.spongebobify = factory());
-}(this, (function () { 'use strict';
-
-function spongebobify(text) {
-    return Array.from(text).reduce(function (acc, el, i) { return (acc += i % 2 ? el.toUpperCase() : el.toLowerCase()); }, '');
-}
-
-return spongebobify;
-
-})));
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):e.spongebobify=n()}(this,function(){"use strict";var e=function(e){return Array.from(e).reduce(function(e,n,r){return e+=r%2?n.toUpperCase():n.toLowerCase()},"")},n=function(e){return Array.from(e).reduce(function(e,n,r){return e+=r%2?n.toLowerCase():n.toUpperCase()},"")};return function(r,o){return void 0===o&&(o=!0),o?e(r):n(r)}});

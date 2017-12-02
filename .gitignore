@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# TypeScript cache
+.rpt2_cache
+

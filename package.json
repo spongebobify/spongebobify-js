@@ -1,16 +1,22 @@
 {
-  "name": "spongebobify",
-  "version": "0.2.1",
-  "description": "a nOdE MoDuLe tO EaSiLy sPoNgEbObIfY TeXt",
-  "main": "dist/spongebobify.js",
-  "repository": "https://github.com/bencooper222/spongebobify-node.git",
-  "author": "Benjamin Cooper",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "^4.0.1"
-  }
+    "name": "spongebobify",
+    "version": "0.2.1",
+    "description": "a nOdE MoDuLe tO EaSiLy sPoNgEbObIfY TeXt",
+    "main": "dist/spongebobify.js",
+    "repository": "https://github.com/bencooper222/spongebobify-node.git",
+    "author": "Benjamin Cooper",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "rollup -c",
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "mocha": "^4.0.1"
+    },
+    "dependencies": {
+        "rollup": "^0.52.0",
+        "rollup-plugin-typescript2": "^0.8.4",
+        "typescript": "^2.6.2"
+    }
 }

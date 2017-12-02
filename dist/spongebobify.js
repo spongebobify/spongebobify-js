@@ -5,13 +5,7 @@
 }(this, (function () { 'use strict';
 
 function spongebobify(text) {
-  let altered = "";
-  let isLower = true;
-  for (let i = 0; i < text.length; i++) {
-    altered += isLower ? text[i].toLowerCase() : text[i].toUpperCase();
-    isLower = !isLower;
-  }
-  return altered;
+    return Array.from(text).reduce(function (acc, el, i) { return (acc += i % 2 ? el.toUpperCase() : el.toLowerCase()); }, '');
 }
 
 return spongebobify;

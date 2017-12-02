@@ -78,39 +78,39 @@ describe('spongebobify', function() {
     });
 
 
-    it('thing first', function() { // first/left
+    it('thing default', function() { // first/left
         let result = spongebobify('thing');
         assert.equal(result, 'tHiNg');
     });
 
-    it('hi first', function() {
+    it('hi default', function() {
         let result = spongebobify('hi');
         assert.equal(result, 'hI');
     });
 
-    it('numbers first', function() {
+    it('numbers default', function() {
         let result = spongebobify('9628347231');
         assert.equal(result, '9628347231');
     });
 
-    it('invert first', function() {
+    it('invert default', function() {
         const description = 'a nOdE MoDuLe tO EaSiLy sPoNgEbObIfY TeXt';
         let result = spongebobify(spongebobify(description));
 
         assert.equal(result, description);
     });
 
-    it('punctuation and spaces first', function() {
+    it('punctuation and spaces default', function() {
         let result = spongebobify('!fh@# @b#csQ@A');
         assert.equal(result, '!Fh@# @B#CsQ@A');
     });
 
-    it('surrogate pairs first', function() {
+    it('surrogate pairs default', function() {
         let result = spongebobify('abc𝟘𝟙𝟚𝟛');
         assert.equal(result, 'aBc𝟘𝟙𝟚𝟛');
     });
 
-    it('emoji first', function() {
+    it('emoji default', function() {
         let result = spongebobify('🤤😅😫🤶😖🤳💁💓😏🖤');
         assert.equal(result, '🤤😅😫🤶😖🤳💁💓😏🖤');
     });

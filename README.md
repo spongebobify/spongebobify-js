@@ -1,5 +1,5 @@
 # spongebobify
-
+[![Build Status](https://travis-ci.org/bencooper222/spongebobify.svg?branch=master)](https://travis-ci.org/bencooper222/spongebobify)
 ## Usage
 
 First install it:
@@ -19,6 +19,14 @@ const spongebobify = require('spongebobify');
 
 console.log(spongebobify("A node module too easily spongebobify text"));
 // will print "a nOdE mOdUlE To eAsIlY SpOnGeBoBiFy TeXt"
+
+
+// you can also specify a param on case alternation
+console.log(spongebobify("A node module too easily spongebobify text",true));
+// will print same as above
+
+console.log(spongebobify("A node module too easily spongebobify text",true));
+// will print "A NoDe mOdUlE To eAsIlY SpOnGeBoBiGy tExT"
 ```
 
 ## Development

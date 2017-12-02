@@ -1,5 +1,5 @@
 const assert = require('assert');
-const spongebobify = require('../dist/spongebobify.js');
+const spongebobify = require('../dist/spongebobify.umd.js');
 
 describe('spongebobify', function() {
     it('thing first', function() { // first/left

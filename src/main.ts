@@ -4,7 +4,7 @@ export default function spongebobify(text: string, startLower: boolean = true) {
         .reduce(
             (acc, el, i) =>
                 (acc +=
-                    (i % 2) ^ +startLower
+                    !(i % 2) === startLower
                         ? el.toLowerCase()
                         : el.toUpperCase()),
             ''

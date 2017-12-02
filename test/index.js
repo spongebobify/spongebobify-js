@@ -29,6 +29,11 @@ describe('spongebobify', function() {
         assert.equal(result, '!Fh@# @B#CsQ@A');
     });
 
+    it('surrogate pairs', function() {
+        let result = spongebobify('abc𝟘𝟙𝟚𝟛');
+        assert.equal(result, 'aBc𝟘𝟙𝟚𝟛');
+    });
+
     it('emoji', function() {
         let result = spongebobify('🤤😅😫🤶😖🤳💁💓😏🖤');
         assert.equal(result, '🤤😅😫🤶😖🤳💁💓😏🖤');

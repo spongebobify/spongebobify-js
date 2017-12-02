@@ -1,6 +1,6 @@
 {
     "name": "spongebobify",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "a nOdE MoDuLe tO EaSiLy sPoNgEbObIfY TeXt",
     "main": "dist/spongebobify.js",
     "repository": "https://github.com/bencooper222/spongebobify-node.git",

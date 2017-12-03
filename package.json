@@ -1,6 +1,6 @@
 {
     "name": "spongebobify",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "description": "a nOdE MoDuLe tO EaSiLy sPoNgEbObIfY TeXt",
     "main": "dist/spongebobify.umd.js",
     "module": "dist/spongebobify.esm.js",

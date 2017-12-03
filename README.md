@@ -1,6 +1,8 @@
 # spongebobify
 
 [![Build Status](https://travis-ci.org/bencooper222/spongebobify.svg?branch=master)](https://travis-ci.org/bencooper222/spongebobify)
+[![npm-version](https://img.shields.io/npm/v/spongebobify.svg?maxAge=2592000)](https://npmjs.org/package/spongebobify)
+[![npm-monthly-downloads](https://img.shields.io/npm/dm/spongebobify.svg?maxAge=2592000)](https://npmjs.org/package/spongebobify)
 
 ## Usage
 

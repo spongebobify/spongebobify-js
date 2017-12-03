@@ -25,7 +25,7 @@ console.log(spongebobify("A node module too easily spongebobify text"));
 console.log(spongebobify("A node module too easily spongebobify text",true));
 // will print same as above
 
-console.log(spongebobify("A node module too easily spongebobify text",true));
+console.log(spongebobify("A node module too easily spongebobify text",false));
 // will print "A NoDe mOdUlE To eAsIlY SpOnGeBoBiGy tExT"
 ```
 

@@ -44,6 +44,23 @@ yarn build
 yarn test
 ```
 
+## FAQ
+Q: Why do you need type safe spongebobification?
+
+A: Our 10s of users depend on us to deliver a reliable package that will never cause issues. Type checking allows us to deliver on that promise. 
+
+Q: Couldn't you just have a human test the code? 
+
+A: Clearly, we hold ourselves to higher standards than you hold yourself. 
+
+Q: Couldn't I just write this algorithm myself?
+
+A: What would you rather do - write 5 lines of code or just type `yarn add spongebobify` and install an extra 8 direct dependencies and 92 more required by those packages?
+
+Q: Why is there a rollup config file?
+
+A: Welcome to the future.
+
 ## Credits
 
 Algorithm and idea inspired by Irfaan Khalid's

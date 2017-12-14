@@ -46,9 +46,9 @@ yarn test
 
 ## FAQ
 
-Q: "Why does this exist"
+Q: Why does this exist?
 
-A: "WhY dOeS tHiS eXiSt"
+A: WhY dOeS tHiS eXiSt?
 
 Q: Why do you need type safe spongebobification?
 

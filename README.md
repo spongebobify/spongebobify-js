@@ -45,6 +45,11 @@ yarn test
 ```
 
 ## FAQ
+
+Q: "Why does this exist"
+
+A: "WhY dOeS tHiS eXiSt"
+
 Q: Why do you need type safe spongebobification?
 
 A: Our 10s of users depend on us to deliver a reliable package that will never cause issues. Type checking allows us to deliver on that promise. 

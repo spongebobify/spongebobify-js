@@ -60,7 +60,7 @@ A: Clearly, we hold ourselves to higher standards than you hold yourself.
 
 Q: Couldn't I just write this algorithm myself?
 
-A: What would you rather do - write 5 lines of code or just type `yarn add spongebobify` and install an extra 8 direct dependencies and 92 more required by those packages?
+A: What would you rather do - write 5 lines of code or just type `yarn add spongebobify` and get a package guaranteed to work after installing.
 
 Q: Why is there a rollup config file?
 
@@ -69,7 +69,7 @@ A: Welcome to the future.
 ## Credits
 
 Algorithm and idea inspired by Irfaan Khalid's
-[spongebobify-cmd](https://github.com/IrfaanKhalid/spongebobify-cmd) project.
+[spongebobify-cmd](https://github.com/IrfaanKhalid/spongebobify-cmd) project. His isn't as good though - there's no unit tests, it's not available on Maven and it's in *Java*. 
 
 ## License
 
